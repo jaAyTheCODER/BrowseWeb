@@ -1,1 +1,45 @@
+name: Build BrowseWeb
 
+on: [push]
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build App
+        run: |
+          pip install PyQt5 PyQtWebEngine pyinstaller
+          pyinstaller --onefile --windowed --name "BrowseWeb" browseweb.py
+          mv dist/BrowseWeb.exe dist/browsewebinstall.exe
+      - name: Upload Windows
+        uses: actions/upload-artifact@v4
+        with:
+          name: browsewebinstall
+          path: dist/browsewebinstall.exe
+
+  build-mac:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build App
+        run: |
+          pip install PyQt5 PyQtWebEngine pyinstaller
+          brew install create-dmg
+          pyinstaller --windowed --name "BrowseWeb" browseweb.py
+          mkdir dmg_folder
+          cp -R dist/BrowseWeb.app dmg_folder/
+          create-dmg --volname "BrowseWeb" --window-size 500 300 --icon "BrowseWeb.app" 250 150 browsewebinstaller.dmg dmg_folder/
+      - name: Upload Mac
+        uses: actions/upload-artifact@v4
+        with:
+          name: browsewebinstaller
+          path: browsewebinstaller.dmg
