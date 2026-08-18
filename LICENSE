@@ -1,1 +1,46 @@
-To be changed to new license soon...
+The NCR License (Version 1.1)
+
+Copyright (c) 2026 jaAyTheCODER
+
+1. PERMISSIONS
+Permission is hereby granted to any person obtaining a copy of this software 
+and associated source code (the "Software"), to:
+  (a) Run and execute compiled or binary forms of the Software for personal, 
+      strictly non-commercial purposes.
+  (b) View, inspect, and read the source code for personal, educational, 
+      or reference purposes.
+  (c) Write, execute, and distribute original scripts, macros, or user content 
+      created to run on or interact with the Software ("User Scripts"), subject to 
+      the restrictions below.
+
+2. RESTRICTIONS
+  (a) NO COPYING OR RE-IMPLEMENTING CODE: You may NOT copy, paste, embed, translate, 
+      rewrite, or re-implement any portion of the Software's source code, internal 
+      algorithms, or binaries into your User Scripts, external projects, or 
+      third-party applications.
+  (b) NO MODIFICATIONS TO THE SOFTWARE: You may NOT modify, alter, adapt, 
+      decompile, reverse engineer, or create derivative works of the Software itself 
+      or its underlying files.
+  (c) NO COMMERCIAL MONETIZATION OR SAAS: You may NOT sell, rent, lease, sublicense, 
+      monetize, charge fees for, or place behind paywalls/donations/sponsorships 
+      the Software, its source code, compiled binaries, or access to the Software 
+      over a network (including SaaS, cloud hosting, or remote execution services). 
+  (d) REDISTRIBUTION: You may NOT re-host, mirror, or distribute the Software or 
+      its source code on third-party sites without express written consent. All 
+      downloads must link directly to the official project repository.
+  (e) ATTRIBUTION: All original copyright notices and this license text must 
+      remain intact in all authorized copies of the Software or source code.
+
+3. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.
+
+4. CONTACT & INQUIRIES
+If you have questions about this license, want to report a bug, or wish to 
+request commercial or custom permissions, contact:
+  - Email: ncr.license.info@gmail.com
